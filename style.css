@@ -6,6 +6,7 @@ header {
     margin: 150px;
     margin-top: -10px;
     background-color: #FFF8F3;
+    margin-right: 30px;
 }
 
 header nav {
@@ -41,11 +42,11 @@ header nav ul li button {
 
 .banner {
     display: flex;
+    margin-top: 25px;
     background-image: url(./Image/header_bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 25px;
 }
 
 .banner h4 {
@@ -74,6 +75,42 @@ header nav ul li button {
 }
 
 .img {
-    margin-left: -120px;
+    margin-left: -150px;
     margin-top: -760px;
+}
+
+.About {
+    margin: 200px;
+}
+
+.About h3 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.About p {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(99, 101, 101);
+}
+
+.About .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.About .main strong {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.About .main small {
+    font-size: 15px;
+}
+
+.About .Do {
+    margin-top: 300px;
 }
