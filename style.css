@@ -3,22 +3,20 @@ body {
 }
 
 header {
-    margin-left: 100px;
-    margin-top: 20px;
+    margin: 150px;
+    margin-top: -10px;
+    background-color: #FFF8F3;
 }
 
 header nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header nav h3 {
     font-size: 45px;
     font-weight: 800;
-}
-
-header nav ul {
-    margin-left: 600px;
-    margin-top: 50px;
 }
 
 header nav ul li {
@@ -34,6 +32,48 @@ header nav ul li a {
 header nav ul li button {
     background-color: tomato;
     border: none;
-    padding: 20px 35px;
+    padding: 15px 30px;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.banner {
+    display: flex;
+    background-image: url(./Image/header_bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.banner h4 {
+    font-size: 40px;
+    color: lightslategray;
+    margin-top: 50px;
+}
+
+.banner h1 {
+    font-size: 70px;
+    margin-top: -40px;
+}
+
+.banner p {
+    margin-top: -30px;
+}
+
+.banner .button {
+    background-color: tomato;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.img {
+    margin-left: -120px;
+    margin-top: -760px;
 }
