@@ -102,6 +102,10 @@ header nav ul li button {
     margin: 50px;
 }
 
+.About .chilled {
+    text-align: center;
+}
+
 .About .main strong {
     display: block;
     margin-bottom: 20px;
@@ -113,4 +117,20 @@ header nav ul li button {
 
 .About .Do {
     margin-top: 300px;
+}
+
+.skills-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.box-container p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.box-container {
+    padding: 20px;
 }
