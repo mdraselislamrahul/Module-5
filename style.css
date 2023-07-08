@@ -134,3 +134,129 @@ header nav ul li button {
 .box-container {
     padding: 20px;
 }
+
+.summary {
+    margin: 0px 100px;
+}
+
+.summary h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.summary-main {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.summary-chilled {
+    margin: 20px;
+}
+
+.summary-chilled h2 {
+    font-size: 35px;
+    color: rgb(47, 46, 46);
+}
+
+.summary-chilled h3 {
+    font-size: 25px;
+    color: rgb(61, 60, 60);
+}
+
+.summary-chilled h4 {
+    font-size: 20px;
+    color: rgb(145, 144, 144);
+}
+
+.summary-chilled p {
+    color: rgb(99, 101, 101);
+}
+
+.summary-chilled hr {
+    width: 90%;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+main .button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main button {
+    background-color: tomato;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    margin: auto;
+}
+
+footer {
+    margin: 150px;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chilled-footer {
+    margin: 30px;
+    text-align: center;
+}
+
+.Input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.areya {
+    width: 100%;
+    height: 200px;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.chilled-footer .button {
+    text-align: left;
+}
+
+.chilled-footer button {
+    background-color: tomato;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.chilled-footer ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.chilled-footer ul li {
+    display: inline-block;
+}
+
+.chilled-footer ul li a {
+    padding: 10px;
+}
+
+.chilled-footer p {
+    font-size: 20px;
+    color: rgb(99, 101, 101);
+}
